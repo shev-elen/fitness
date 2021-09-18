@@ -1,0 +1,16 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+
+
+
+
+* {
+    font-family: 'AvenirNextRoundedStdDemi', 'AvenirNextRoundedStdMed', 'AvenirNextRoundedStdReg', 'OpenSansBold', 'OpenSansRegular', 'ProximaNovaRegular', 'MontserratRegular', sans-serif;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+@import 'blocks/promo';
+@import 'blocks/about';

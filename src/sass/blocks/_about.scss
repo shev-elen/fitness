@@ -1,0 +1,10 @@
+.about {
+    padding-top: 112px;
+    background-color: #a2ca28;
+    &__items {
+        display: grid;
+        grid-template: repeat(1,minmax(242px,auto))/repeat(4,258px);
+        grid-auto-rows: minmax(270px,auto);
+        gap: 39px;
+    }
+}
