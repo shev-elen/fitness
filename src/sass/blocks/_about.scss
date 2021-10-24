@@ -4,7 +4,58 @@
     &__items {
         display: grid;
         grid-template: repeat(1,minmax(242px,auto))/repeat(4,258px);
-        grid-auto-rows: minmax(270px,auto);
-        gap: 39px;
+        grid-auto-rows: minmax(270px, auto);
+        gap: 39px;  
+         
+    }
+    &__item {
+        position: relative;
+    }
+    &-title {
+        padding-top: 23px;
+        margin-bottom: 0;
+        font-family: 'OpenSansRegular';
+        font-size: 24px;
+        color: #fff;
+        font-weight: normal;
+    }
+    &-img {
+        min-height: 44px;
+    }
+    &-descr {
+        padding-top: 33px;
+        font-family: 'ProximaNovaRegular';
+        font-size: 14px;
+        font-weight: normal;
+        color: #fff;
+        min-height: 85px;
+        margin-bottom: 28px;
+        
+    }
+    &-link {
+        /* position: absolute; */
+        display: flex;
+        padding-top: 18px;
+        &__text {
+            position: absolute;
+            bottom: 0;
+        display: block;
+        color: #fff;
+        font-size: 14px;
+        font-family: 'Arial';
+        
+        &:hover {
+            text-decoration: none;
+            color:#fff;
+        }
+        
+    }
+    }
+    
+    p {
+        margin-bottom: 0;
+    }
+    &__life {
+        padding-top: 119px;;
     }
 }

@@ -1,0 +1,21 @@
+.idea {
+    background: url('../../img/Shape_man.jpg') center center/cover no-repeat;
+    min-height: 800px;
+    padding-top: 240px;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h2, p {
+            font-family: 'OpenSansRegular';
+            font-size: 45px;
+            color: #fff;
+            margin-bottom: 0;
+        }
+        p {
+            font-size: 16px;
+            padding-top: 25px;
+            width: 479px;
+        }
+    }
+}

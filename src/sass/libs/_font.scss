@@ -1,63 +1,65 @@
 @font-face { 
     font-family: "AvenirNextRoundedStdDemi";
-    src: url("../fonts/AvenirNextRoundedStdDemi/AvenirNextRoundedStdDemi.eot");
-    src: url("../fonts/AvenirNextRoundedStdDemi/AvenirNextRoundedStdDemi.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/AvenirNextRoundedStdDemi/AvenirNextRoundedStdDemi.woff") format("woff"),
-    url("../fonts/AvenirNextRoundedStdDemi/AvenirNextRoundedStdDemi.ttf") format("truetype");
+    src: url("../fonts/AvenirNextRoundedStdDemi.eot");
+    src: url("../fonts/AvenirNextRoundedStdDemi.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/AvenirNextRoundedStdDemi.woff") format("woff"),
+    url("../fonts/AvenirNextRoundedStdDemi.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
+
 @font-face { 
     font-family: "AvenirNextRoundedStdMed";
-    src: url("../fonts/AvenirNextRoundedStdMed/AvenirNextRoundedStdMed.eot");
-    src: url("../fonts/AvenirNextRoundedStdMed/AvenirNextRoundedStdMed.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/AvenirNextRoundedStdMed/AvenirNextRoundedStdMed.woff") format("woff"),
-    url("../fonts/AvenirNextRoundedStdMed/AvenirNextRoundedStdMed.ttf") format("truetype");
+    src: url("../fonts/AvenirNextRoundedStdMed.eot");
+    src: url("../fonts/AvenirNextRoundedStdMed.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AvenirNextRoundedStdMed.woff") format("woff"),
+    url("../fonts/AvenirNextRoundedStdMed.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
+
 @font-face { 
     font-family: "AvenirNextRoundedStdReg";
-    src: url("../fonts/AvenirNextRoundedStdReg/AvenirNextRoundedStdReg.eot");
-    src: url("../fonts/AvenirNextRoundedStdReg/AvenirNextRoundedStdReg.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/AvenirNextRoundedStdReg/AvenirNextRoundedStdReg.woff") format("woff"),
-    url("../fonts/AvenirNextRoundedStdReg/AvenirNextRoundedStdReg.ttf") format("truetype");
+    src: url("../fonts/AvenirNextRoundedStdReg.eot");
+    src: url("../fonts/AvenirNextRoundedStdReg.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/AvenirNextRoundedStdReg.woff") format("woff"),
+    url("../fonts//AvenirNextRoundedStdReg.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face { 
     font-family: "OpenSansBold";
-    src: url("../fonts/OpenSansBold/OpenSansBold.eot");
-    src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
-    url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+    src: url("../fonts/OpenSansBold.eot");
+    src: url("../fonts/OpenSansBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSansBold.woff") format("woff"),
+    url("../fonts/OpenSansBold.ttf") format("truetype");
     font-style: normal;
     font-weight: 700;
 }
 @font-face { 
     font-family: "OpenSansRegular";
-    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
-    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
-    url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+    src: url("../../fonts/OpenSansRegular.eot");
+    src: url("../fonts/OpenSansRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/OpenSansRegular.woff") format("woff"),
+    url("../fonts/OpenSansRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: 400;
 }
 @font-face { 
     font-family: "ProximaNovaRegular";
-    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
-    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
-    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+    src: url("../fonts/ProximaNovaRegular.eot");
+    src: url("../fonts/ProximaNovaRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ProximaNovaRegular.woff") format("woff"),
+    url("../fonts/ProximaNovaRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: 400;
 }
 @font-face { 
     font-family: "MontserratRegular";
-    src: url("../fonts/MontserratRegular/MontserratRegular.eot");
-    src: url("../fonts/MontserratRegular/MontserratRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/MontserratRegular/MontserratRegular.woff") format("woff"),
-    url("../fonts/MontserratRegular/MontserratRegular.ttf") format("truetype");
+    src: url("../fonts/MontserratRegular.eot");
+    src: url("../fontsMontserratRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MontserratRegular.woff") format("woff"),
+    url("../fonts/MontserratRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: 400;
 }

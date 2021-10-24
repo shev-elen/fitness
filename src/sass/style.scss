@@ -1,11 +1,15 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/font';
+@import 'libs/fontawesome/scss/fontawesome';
+@import 'libs/fontawesome/scss/solid';
+@import 'libs/fontawesome/scss/brands';
+@import 'libs/fontawesome/scss/regular';
 
 
 
 
 * {
-    font-family: 'AvenirNextRoundedStdDemi', 'AvenirNextRoundedStdMed', 'AvenirNextRoundedStdReg', 'OpenSansBold', 'OpenSansRegular', 'ProximaNovaRegular', 'MontserratRegular', sans-serif;
+    font-family: 'AvenirNextRoundedStdDemi', 'AvenirNextRoundedStdMed', 'AvenirNextRoundedStdReg', 'OpenSansBold', 'OpenSansRegular', 'ProximaNovaRegular', 'MontserratRegular', 'sans-serif';
 }
 
 .container {
@@ -13,4 +17,8 @@
     margin: 0 auto;
 }
 @import 'blocks/promo';
-
+@import 'blocks/about';
+@import 'blocks/your';
+@import 'blocks/red';
+@import 'blocks/idea';
+@import 'blocks/contacts';
