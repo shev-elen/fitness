@@ -3,8 +3,8 @@
     background-color: #a2ca28;
     &__wrapper {
         display: grid;
-        grid-template: repeat(2, minmax(393px,auto))/repeat(3, 393px);
-        grid-auto-rows: minmax(393px,auto);
+        grid-template: repeat(2, minmax(393px, auto)) / repeat(3, 393px);
+        grid-auto-rows: minmax(393px, auto);
     }
     &__item {
         background: #fff;
@@ -109,6 +109,6 @@
         a {
             padding-top: 15px;
             text-decoration: underline;
-        }
+        } 
     }
 }

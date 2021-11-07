@@ -1,0 +1,29 @@
+.hamburger {
+    position: absolute;
+    display: block;
+    top: 39px;
+    right: 10px;
+    cursor: pointer;
+    span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background: #fff;
+        margin-bottom: 3px;
+    }
+    &-active {
+        span {
+            background: #f7614c;
+            margin-bottom: -3px;
+            &:nth-child(1) {
+                transform: translateY(3px) rotate(-45deg);
+            }
+            &:nth-child(2) {
+                display: none;
+            }
+            &:nth-child(3) {
+                transform: translateY(3px) rotate(45deg);
+            }
+        }
+    }
+}

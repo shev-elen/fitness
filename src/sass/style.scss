@@ -1,15 +1,19 @@
 @import 'libs/bootstrap-reboot.min';
-@import 'libs/font';
-@import 'libs/fontawesome/scss/fontawesome';
-@import 'libs/fontawesome/scss/solid';
-@import 'libs/fontawesome/scss/brands';
-@import 'libs/fontawesome/scss/regular';
+@import 'libs/font.scss';
+@import 'libs/fontawesome/scss/fontawesome.scss';
+@import 'libs/fontawesome/scss/solid.scss';
+@import 'libs/fontawesome/scss/brands.scss';
+@import 'libs/fontawesome/scss/regular.scss';
+@import 'libs/fontawesome/scss/icons.scss';
+
+
+  
 
 
 
 
 * {
-    font-family: 'AvenirNextRoundedStdDemi', 'AvenirNextRoundedStdMed', 'AvenirNextRoundedStdReg', 'OpenSansBold', 'OpenSansRegular', 'ProximaNovaRegular', 'MontserratRegular', 'sans-serif';
+    font-family: 'AvenirNextRoundedStdDemi', 'AvenirNextRoundedStdMed', 'AvenirNextRoundedStdReg', 'OpenSansBold', 'OpenSansRegular', 'ProximaNovaRegular', 'MontserratRegular', sans-serif;
 }
 
 .container {
@@ -22,3 +26,5 @@
 @import 'blocks/red';
 @import 'blocks/idea';
 @import 'blocks/contacts';
+@import 'blocks/hamburger';
+@import 'base/media';

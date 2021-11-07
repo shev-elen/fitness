@@ -1,12 +1,14 @@
 .about {
+    * {
+        box-sizing: content-box;
+    }
     padding-top: 112px;
     background-color: #a2ca28;
     &__items {
         display: grid;
-        grid-template: repeat(1,minmax(242px,auto))/repeat(4,258px);
-        grid-auto-rows: minmax(270px, auto);
-        gap: 39px;  
-         
+        grid-template: repeat(1, minmax(242px, auto)) / repeat(4, 259px);
+        grid-auto-rows: minmax(242px, auto);
+        gap: 39px;
     }
     &__item {
         position: relative;
@@ -14,48 +16,63 @@
     &-title {
         padding-top: 23px;
         margin-bottom: 0;
-        font-family: 'OpenSansRegular';
+        font-family: "OpenSansRegular";
         font-size: 24px;
         color: #fff;
         font-weight: normal;
+        line-height: 24px;
     }
     &-img {
         min-height: 44px;
     }
     &-descr {
-        padding-top: 33px;
-        font-family: 'ProximaNovaRegular';
+        padding: 33px 0 28px 0;
+        min-height: 85px;
+    }
+    &-text {
+        bottom: 0;
+        font-family: "ProximaNovaRegular";
         font-size: 14px;
         font-weight: normal;
         color: #fff;
-        min-height: 85px;
-        margin-bottom: 28px;
-        
+
+        p {
+            margin-bottom: 0;
+        }
     }
-    &-link {
-        /* position: absolute; */
-        display: flex;
-        padding-top: 18px;
-        &__text {
-            position: absolute;
-            bottom: 0;
-        display: block;
+
+    #more, #start, #and, #by {
+        display: none;
+    }
+    #btn, #browse, #connect, #now {    
         color: #fff;
         font-size: 14px;
-        font-family: 'Arial';
-        
-        &:hover {
-            text-decoration: none;
-            color:#fff;
-        }
-        
+        font-family: "ProximaNovaRegular";
+        padding: 0;
+        background: none;
+        border: none;
     }
+    button {
+        outline: none;
     }
     
-    p {
-        margin-bottom: 0;
-    }
-    &__life {
-        padding-top: 119px;;
+
+    
+    &-click, .about-click1, .about-click2, .about-click3 {
+        &:after {
+            content: "\f30b";
+            font-family: 'Font Awesome\ 5 Free';
+            color: #fff;
+            font-weight: 900;
+            font-size: 20px;
+            padding-left: 3px;
+            vertical-align: middle;
+        }
+        &_active {
+            &:after {
+                content: " ";
+            }
+        }
     }
 }
+
