@@ -1,6 +1,6 @@
-.promo  {
+.promo {
     min-height: 100vh;
-    background: url('../../img/header.jpg') no-repeat 50%/cover/* center center/cover no-repeat */;
+    background: url("../img/header.jpg") no-repeat 50% / cover /* center center/cover no-repeat */;
     padding-top: 39px;
     position: relative;
     .header {
@@ -11,16 +11,14 @@
             padding-left: 52px;
             display: flex;
             justify-content: space-between;
-            
         }
         &__title {
             padding-left: 13px;
-            font-family: 'AvenirNextRoundedStdDemi';
+            font-family: "AvenirNextRoundedStdDemi";
             font-size: 24px;
             font-weight: normal;
             text-transform: uppercase;
             color: #fff;
-           
         }
         &-list {
             display: flex;
@@ -32,13 +30,13 @@
             padding-left: 0;
             align-items: flex-end;
             &__item {
-               padding-right: 65px;
-               &:last-child {
-                padding-right: 0;
+                padding-right: 65px;
+                &:last-child {
+                    padding-right: 0;
                 }
                 a {
                     color: #fff;
-                    font-family: 'AvenirNextRoundedStdMed';
+                    font-family: "AvenirNextRoundedStdMed";
                     font-size: 13px;
                     font-weight: normal;
                     &:hover {
@@ -52,7 +50,7 @@
         padding: 602px 0 70px 117px;
         color: #fff;
         &-title {
-            font-family: 'AvenirNextRoundedStdReg';
+            font-family: "AvenirNextRoundedStdReg";
             font-size: 40px;
             font-weight: normal;
             text-transform: uppercase;
@@ -61,7 +59,7 @@
             }
         }
         &-subtitle {
-            font-family: 'OpenSansBold';
+            font-family: "OpenSansBold";
             font-size: 15px;
             text-transform: uppercase;
             span {

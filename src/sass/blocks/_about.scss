@@ -9,6 +9,7 @@
         grid-template: repeat(1, minmax(242px, auto)) / repeat(4, 259px);
         grid-auto-rows: minmax(242px, auto);
         gap: 39px;
+        justify-content: center;
     }
     &__item {
         position: relative;
@@ -26,7 +27,7 @@
         min-height: 44px;
     }
     &-descr {
-        padding: 33px 0 28px 0;
+        padding-top: 33px;
         min-height: 85px;
     }
     &-text {
@@ -35,16 +36,20 @@
         font-size: 14px;
         font-weight: normal;
         color: #fff;
-
         p {
+            transition: 0.8s all;
             margin-bottom: 0;
         }
     }
 
     #more, #start, #and, #by {
         display: none;
+        font-family: "ProximaNovaRegular";
+        font-size: 14px;
+        font-weight: normal;
+        color: #fff;
     }
-    #btn, #browse, #connect, #now {    
+    #btn, #browse, #connect, #now {
         color: #fff;
         font-size: 14px;
         font-family: "ProximaNovaRegular";
@@ -54,14 +59,14 @@
     }
     button {
         outline: none;
+        padding: 0;
+        position: relative;
+        top: 0;
     }
-    
-
-    
     &-click, .about-click1, .about-click2, .about-click3 {
         &:after {
             content: "\f30b";
-            font-family: 'Font Awesome\ 5 Free';
+            font-family: "Font Awesome\ 5 Free";
             color: #fff;
             font-weight: 900;
             font-size: 20px;
@@ -74,5 +79,7 @@
             }
         }
     }
+    &-link {
+        padding-top: 28px;
+    }
 }
-

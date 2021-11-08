@@ -20,7 +20,7 @@
             align-items: center;
             bottom: 45px;
             right: 41px;
-            }
+        }
         &-hours {
             position: absolute;
             display: flex;
@@ -28,17 +28,15 @@
             bottom: 45px;
             left: 49px;
         }
-        
         &-shape {
             width: 19px;
             height: 31px;
-            
         }
         h3 {
-            color:#fd634e;
+            color: #fd634e;
             font-size: 14px;
             text-transform: uppercase;
-            font-family: 'MontserratRegular';
+            font-family: "MontserratRegular";
             letter-spacing: 1.4px;
             margin-bottom: 0;
             line-height: 14px;
@@ -47,21 +45,21 @@
             color: #a2ca28;
             font-size: 35px;
             text-transform: uppercase;
-            font-family: 'OpenSansRegular';
+            font-family: "OpenSansRegular";
             font-weight: 300;
             margin-bottom: 0;
             line-height: 35px;
             padding-top: 13px;
         }
         p {
-            color:#656e74;
+            color: #656e74;
             font-size: 14px;
-            font-family: 'OpenSansRegular';
+            font-family: "OpenSansRegular";
         }
         a {
-            color:#a2ca28;
+            color: #a2ca28;
             font-size: 14px;
-            font-family: 'OpenSansRegular';
+            font-family: "OpenSansRegular";
             display: block;
         }
     }
@@ -72,15 +70,14 @@
         a {
             padding-right: 13px;
             display: block;
-            color:#f7614c;
+            color: #f7614c;
             font-size: 12px;
-            font-family: 'OpenSansRegular';
+            font-family: "OpenSansRegular";
             span.red {
-                color:#fff;
+                color: #fff;
                 background: none;
             }
         }
-        
     }
     .horizontal-2 {
         position: relative;
@@ -89,12 +86,12 @@
         a {
             padding-right: 13px;
             display: block;
-            color:#fff;
+            color: #fff;
             font-size: 12px;
-            font-family: 'OpenSansRegular';
+            font-family: "OpenSansRegular";
             span.white {
                 padding: 0;
-            } 
+            }
         }
     }
     .white {
@@ -109,6 +106,6 @@
         a {
             padding-top: 15px;
             text-decoration: underline;
-        } 
+        }
     }
 }

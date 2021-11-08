@@ -29,18 +29,14 @@
             afterHide: null
         };
         
-        $(document).ready(function(){   /* Эта часть кода нам нужна для изменения кол-ва строк  truncate: 5 или  т.д  */
+        $(document).ready(function(){   
             $('.demo3').collapser({
                 mode: 'lines',
                 truncate: 1
             });   
         });
         
-        /* $('.white-text').collapser({   И еще эту часть выносила отдельно в скрипт
-            mode: 'lines',
-            truncate: 5,
-        }); */
-        /* $(".new").css({ "height": "114px" }); */   /* Эти части кода я выносила в отдельный файл script.js для удобства редакции */
+        
 
     // Constructor
     function Collapser(el, options) {
@@ -68,7 +64,7 @@
             s.ctrlButton = $.isFunction(s.o.controlBtn) ? s.o.controlBtn.call(s.e) : $('<a class="sun" href="#" data-ctrl></a>');
 
             if(s.mode == 'lines'){
-                s.e.wrapInner("<div class='new'></div>"); /* s.e.wrapInner(( "<div class='new'></div>")); Если заменить на эту строку то обертке дадим класс new. Что удобно для изменения высоты, цвета и прочее*/
+                s.e.wrapInner("<div class='new'></div>");
             }
             
             
